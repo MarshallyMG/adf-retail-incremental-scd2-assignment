@@ -27,6 +27,10 @@
 			"type": "string",
 			"defaultValue": "sqladmin"
 		},
+		"LS_AzureDatabricks_Notebook_properties_typeProperties_existingClusterId": {
+			"type": "string",
+			"defaultValue": "0520-062549-1wk15keq"
+		},
 		"containerUri": {
 			"type": "string",
 			"metadata": "URI to storage account containing linked ARM templates"
@@ -68,6 +72,9 @@
 					},
 					"LS_AzureSQL_Retail_properties_typeProperties_userName": {
 						"value": "[parameters('LS_AzureSQL_Retail_properties_typeProperties_userName')]"
+					},
+					"LS_AzureDatabricks_Notebook_properties_typeProperties_existingClusterId": {
+						"value": "[parameters('LS_AzureDatabricks_Notebook_properties_typeProperties_existingClusterId')]"
 					}
 				}
 			},

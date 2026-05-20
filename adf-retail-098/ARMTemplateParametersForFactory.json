@@ -19,6 +19,9 @@
 		},
 		"LS_AzureSQL_Retail_properties_typeProperties_userName": {
 			"value": "sqladmin"
+		},
+		"LS_AzureDatabricks_Notebook_properties_typeProperties_existingClusterId": {
+			"value": "0520-062549-1wk15keq"
 		}
 	}
 }
