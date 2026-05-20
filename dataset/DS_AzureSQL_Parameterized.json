@@ -1,0 +1,29 @@
+{
+	"name": "DS_AzureSQL_Parameterized",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_AzureSQL_Retail",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"schemaName": {
+				"type": "string",
+				"defaultValue": "dbo"
+			},
+			"tableName": {
+				"type": "string",
+				"defaultValue": "retail_customers_source"
+			}
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": {
+				"value": "@dataset().schemaName",
+				"type": "Expression"
+			},
+			"table": "@dataset().tableName"
+		}
+	}
+}
