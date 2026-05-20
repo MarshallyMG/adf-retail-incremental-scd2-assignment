@@ -1,0 +1,15 @@
+{
+	"name": "adf-retail-098",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Enabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "9bf8dcad-4b42-4131-b849-2fd154ae76a4",
+		"tenantId": "e0275bc0-33e3-4f43-8688-64d5b044a431"
+	}
+}
